@@ -283,6 +283,6 @@ func CacheEvictionScheadular(interval time.Duration) {
 			}
 		}
 
-		time.Sleep(time.Hour * interval)
+		time.Sleep(time.Minute * interval)
 	}
 }
